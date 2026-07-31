@@ -1,5 +1,5 @@
 {
-    "name": "kit-template-default",
+    "name": "sveltekit-template",
     "version": "0.0.1",
     "private": true,
     "type": "module",
@@ -13,8 +13,8 @@
     },
     "dependencies": {
         "@lucide/svelte": "^1.26.0",
-        "oxfmt": "^0.61.0",
-        "oxlint": "^1.76.0"
+        "@tailwindcss/vite": "^4.3.3",
+        "tailwindcss": "^4.3.3"
     },
     "devDependencies": {
         "@fontsource/fira-mono": "^5.2.7",
@@ -22,6 +22,8 @@
         "@sveltejs/adapter-auto": "^7.0.0",
         "@sveltejs/kit": "^2.48.5",
         "@sveltejs/vite-plugin-svelte": "^6.2.1",
+        "oxfmt": "^0.61.0",
+        "oxlint": "^1.76.0",
         "svelte": "^5.43.8",
         "svelte-check": "^4.3.4",
         "typescript": "^5.9.3",
@@ -31,7 +33,7 @@
     "devEngines": {
         "packageManager": {
             "name": "pnpm",
-            "version": "11.17.0",
+            "version": "11.18.0",
             "onFail": "download"
         }
     }
