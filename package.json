@@ -1,36 +1,38 @@
 {
-  "name": "kit-template-default",
-  "version": "0.0.1",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vp dev",
-    "build": "vp build",
-    "preview": "vp preview",
-    "prepare": "vp config && svelte-kit sync || echo ''",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
-  },
-  "dependencies": {
-    "@lucide/svelte": "^1.26.0"
-  },
-  "devDependencies": {
-    "@fontsource/fira-mono": "^5.2.7",
-    "@neoconfetti/svelte": "^2.2.2",
-    "@sveltejs/adapter-auto": "^7.0.0",
-    "@sveltejs/kit": "^2.48.5",
-    "@sveltejs/vite-plugin-svelte": "^6.2.1",
-    "svelte": "^5.43.8",
-    "svelte-check": "^4.3.4",
-    "typescript": "^5.9.3",
-    "vite": "catalog:",
-    "vite-plus": "catalog:"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "11.17.0",
-      "onFail": "download"
+    "name": "kit-template-default",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vp dev",
+        "build": "vp build",
+        "preview": "vp preview",
+        "prepare": "vp config && svelte-kit sync || echo ''",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+    },
+    "dependencies": {
+        "@lucide/svelte": "^1.26.0",
+        "oxfmt": "^0.61.0",
+        "oxlint": "^1.76.0"
+    },
+    "devDependencies": {
+        "@fontsource/fira-mono": "^5.2.7",
+        "@neoconfetti/svelte": "^2.2.2",
+        "@sveltejs/adapter-auto": "^7.0.0",
+        "@sveltejs/kit": "^2.48.5",
+        "@sveltejs/vite-plugin-svelte": "^6.2.1",
+        "svelte": "^5.43.8",
+        "svelte-check": "^4.3.4",
+        "typescript": "^5.9.3",
+        "vite": "catalog:",
+        "vite-plus": "catalog:"
+    },
+    "devEngines": {
+        "packageManager": {
+            "name": "pnpm",
+            "version": "11.17.0",
+            "onFail": "download"
+        }
     }
-  }
 }
