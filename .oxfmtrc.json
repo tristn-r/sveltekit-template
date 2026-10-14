@@ -1,0 +1,12 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "bracketSameLine": true,
+    "semi": true,
+    "singleQuote": false,
+    "sortImports": true,
+    "sortTailwindcss": true,
+    "svelte": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false
+}

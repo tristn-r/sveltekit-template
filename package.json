@@ -28,7 +28,8 @@
         "svelte-check": "^4.3.4",
         "typescript": "^5.9.3",
         "vite": "catalog:",
-        "vite-plus": "catalog:"
+        "vite-plus": "catalog:",
+        "zod": "^4.6.7"
     },
     "devEngines": {
         "packageManager": {
